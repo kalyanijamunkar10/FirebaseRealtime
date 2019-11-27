@@ -38,6 +38,8 @@ target 'FirebaseDemo' do
 
   pod 'RNFBDatabase', :path => '../node_modules/@react-native-firebase/database'
 
+  pod 'Firebase/Analytics'
+  pod 'Firebase/Database'
   target 'FirebaseDemoTests' do
     inherit! :search_paths
     # Pods for testing

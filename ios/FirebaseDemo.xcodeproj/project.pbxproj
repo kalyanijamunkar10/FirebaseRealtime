@@ -19,6 +19,7 @@
 		2DCD954D1E0B4F2C00145EB5 /* FirebaseDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* FirebaseDemoTests.m */; };
 		2F9072283F2E18038FF95730 /* libPods-FirebaseDemoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C68EC581916A32D1B277D882 /* libPods-FirebaseDemoTests.a */; };
 		7B74F60F64AE25DB74AAC5E3 /* libPods-FirebaseDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D1146F839EC01616F8EB92AE /* libPods-FirebaseDemo.a */; };
+		7DA882B4238E93AD00A98E66 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7DA882B3238E93AC00A98E66 /* GoogleService-Info.plist */; };
 		D4EA50CBAA4EC53F7C9AEC30 /* libPods-FirebaseDemo-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4935E821DC125247FC8F3A7E /* libPods-FirebaseDemo-tvOSTests.a */; };
 /* End PBXBuildFile section */
 
@@ -56,6 +57,7 @@
 		34C5B6B4A39487A76FB9CB65 /* Pods-FirebaseDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirebaseDemo.release.xcconfig"; path = "Target Support Files/Pods-FirebaseDemo/Pods-FirebaseDemo.release.xcconfig"; sourceTree = "<group>"; };
 		4935E821DC125247FC8F3A7E /* libPods-FirebaseDemo-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FirebaseDemo-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5403FAB8939A66052C7DB407 /* Pods-FirebaseDemo-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirebaseDemo-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-FirebaseDemo-tvOSTests/Pods-FirebaseDemo-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		7DA882B3238E93AC00A98E66 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../GoogleService-Info.plist"; sourceTree = "<group>"; };
 		9A41048F1B919BD7F1E47966 /* libPods-FirebaseDemo-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FirebaseDemo-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A07D72ACCDDCC11AE05F98F9 /* Pods-FirebaseDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirebaseDemoTests.release.xcconfig"; path = "Target Support Files/Pods-FirebaseDemoTests/Pods-FirebaseDemoTests.release.xcconfig"; sourceTree = "<group>"; };
 		B6ABD38AFB24F42D439BBA96 /* Pods-FirebaseDemo-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirebaseDemo-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-FirebaseDemo-tvOSTests/Pods-FirebaseDemo-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -125,6 +127,7 @@
 		13B07FAE1A68108700A75B9A /* FirebaseDemo */ = {
 			isa = PBXGroup;
 			children = (
+				7DA882B3238E93AC00A98E66 /* GoogleService-Info.plist */,
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.m */,
@@ -194,7 +197,6 @@
 				EF42A06B69072E21BF122DE3 /* Pods-FirebaseDemoTests.debug.xcconfig */,
 				A07D72ACCDDCC11AE05F98F9 /* Pods-FirebaseDemoTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -308,6 +310,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -338,6 +341,7 @@
 			files = (
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
+				7DA882B4238E93AD00A98E66 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
